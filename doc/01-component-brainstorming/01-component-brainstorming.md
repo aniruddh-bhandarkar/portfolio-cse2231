@@ -1,12 +1,12 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Aniruddh Bhandarkar
+- **Dot Number**: bhandarkar.10
+- **Due Date**: 09/13 @ 4:10PM EST
 
 ## Assignment Overview
 
-<!-- TODO: read the assignment overview then delete this comment -->
+
 
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
@@ -67,8 +67,6 @@ project. Specifically, students should be able to:
 
 ## Assignment Rubric: 10 Points
 
-<!-- TODO: read the assignment rubric then delete this comment -->
-
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
 are meant to provide ongoing feedback in the learning process. Therefore,
@@ -98,15 +96,11 @@ do good work.
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+Cybersecurity=> Pen Testing, Security Architecture,  \
+Lifting=> Powerlifting, Olympic Weightlifting, Calistenics, Bodybuilding \
+Hiking
 
 ## Assignment
-
-<!-- TODO: read the assignment section then delete this comment -->
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
@@ -114,7 +108,7 @@ that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
 
-<!-- TODO: browse the list of possible projects then delete this comment -->
+
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -123,8 +117,6 @@ etc. Make of this whatever seems interesting to you, and keep in mind that
 you're just brainstorming right now. You do not have to commit to anything.
 
 ### Example Component
-
-<!-- TODO: review this example component then delete this comment -->
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -192,31 +184,33 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: Cybersecurity
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - This is a method that shows the potential career paths in cybersecurity branching from the
+    main Standard method
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - boolean isEmpty()- Method to ensure that a potential method is implementing a zero method
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - void riskAssesment()- Implements the cybersecurity method and gives possible riskassements methods
+    - void securityOperation()- Implements and gives the methods in security operation
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      -No, because this is just storing the potential paths present in a domain
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - yes, this would rely on the cybersec class
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Not yet sure
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - yes, all the secondary methods can be implemented using the kernel methods
 
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: Lifting
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - This method allows us to find the different branches in lifting. State only
   - **Kernel Methods**:
     - <!-- TODO: list kernel methods then delete this comment -->
   - **Secondary Methods**:
@@ -302,8 +296,6 @@ designs, so we can gauge your progress. Please keep it updated at each stage
 of development.
 
 ### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
 
 If you have completed the assignment using this template, we recommend that
 you convert it to a PDF before submission. If you're not sure how, check out
