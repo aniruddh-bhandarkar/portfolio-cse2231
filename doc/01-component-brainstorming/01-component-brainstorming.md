@@ -29,7 +29,7 @@ implement.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
+
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -52,7 +52,7 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
+
 
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
@@ -98,7 +98,7 @@ do good work.
 
 Cybersecurity=> Pen Testing, Security Architecture,  \
 Lifting=> Powerlifting, Olympic Weightlifting, Calistenics, Bodybuilding \
-Hiking
+Hiking=>Backpacking, Trekking \
 
 ## Assignment
 
@@ -208,48 +208,56 @@ will likely refine your design to make your implementation easier to use.
       - yes, all the secondary methods can be implemented using the kernel methods
 
 
-- Component Design #2: Lifting
+- Component Design #2: Airplane Dashboard
   - **Description**:
-    - This method allows us to find the different branches in lifting. State only
+    - This component displays the information present on the dashboard of an airplane to enable a smooth control
+    of the plane.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - void airplaneDashboard()- This method allows for a list of commands to be displayed and returns the
+                                dashboard's statistics
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - int airplaneSpeed()- This method returns the airplane speed
+    - int airAltitude()- this method returns the altitude that the airplane is in
+    - double turnCordinate()- This method returns the turning co-ordinate of the airplane
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, because I would like the user to keep modifying
+      - the data as an when required depending on the
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - This would rely on internal class of dashboard of maps
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know yet
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know yet
 
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #3: Stock Tracker
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - This component is a stock tracker which tracks
+    - the open price, closing price, and the volume of the stock traded
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - int price(String stockName)- This kernel method returns the price of the stock market
+    - void trendLine(String stockName)- This kernel method
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - int closingPrice(stockName)- Closing price of a stock
+    - int startingPrice(stockName)- Starting price of a stock
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, Since the components needs to be taking and storing data from
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, this would rely on the map
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, this would rely on the constant of time to measure the different variables
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - i don't know yet
 
 ## Post-Assignment
 
@@ -258,7 +266,7 @@ completed the assignment.
 
 ### Changelog
 
-<!-- TODO: create CHANGELOG then delete this comment -->
+
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -305,11 +313,11 @@ all your work is there before submitting. For future assignments, you will
 just be submitting a link to a pull request. This will be the only time
 you have to submit any PDFs.
 
-<!-- TODO: upload a PDF of this document and the CHANGELOG to Carmen then delete this comment -->
+
 
 ### Peer Review
 
-<!-- TODO: review the peer review guidelines then delete this comment -->
+
 
 Following the completion of this assignment, you will be assigned three
 students' component brainstorming assignments for review. Your job during the
@@ -336,7 +344,6 @@ If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
 
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [example-components]: https://therenegadecoder.com/code/the-never-ending-list-of-small-programming-project-ideas/
 [markdown-to-pdf-guide]: https://therenegadecoder.com/blog/how-to-convert-markdown-to-a-pdf-3-quick-solutions/
