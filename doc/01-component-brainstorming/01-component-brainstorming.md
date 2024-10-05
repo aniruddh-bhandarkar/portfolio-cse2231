@@ -184,37 +184,15 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: Cybersecurity
-  - **Description**:
-    - This is a method that shows the potential career paths in cybersecurity branching from the
-    main Standard method
-  - **Kernel Methods**:
-    - boolean isEmpty()- Method to ensure that a potential method is implementing a zero method
-  - **Secondary Methods**:
-    - void riskAssesment()- Implements the cybersecurity method and gives possible riskassements methods
-    - void securityOperation()- Implements and gives the methods in security operation
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
-    answer for each of the following questions):
-    - Would this component be mutable? Answer and explain:
-      -No, because this is just storing the potential paths present in a domain
-    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
-      Answer and explain:
-      - yes, this would rely on the cybersec class
-    - Would this component need any enums or constants (e.g.,
-      `Program.Instruction`)? Answer and explain:
-      - Not yet sure
-    - Can you implement your secondary methods using your kernel methods?
-      Answer, explain, and give at least one example:
-      - yes, all the secondary methods can be implemented using the kernel methods
-
-
-- Component Design #2: Airplane Dashboard
+- Component Design #1: Airplane Dashboard
   - **Description**:
     - This component displays the information present on the dashboard of an airplane to enable a smooth control
     of the plane.
   - **Kernel Methods**:
-    - void airplaneDashboard()- This method allows for a list of commands to be displayed and returns the
-                                dashboard's statistics
+    - void airplaneDashboard()- This method allows for adding the secondary methods to the airplane dashboard
+    - void displayMenu() -This method allows for displaying the available commands to the user as a Command Line Interface (CLI)
+    - void executeCommand(String command)- This method takes the given command and executes it based on user input
+    - void CLIrun()- This method keeps the CLI running using a loop until the user decides to exit the CLI
   - **Secondary Methods**:
     - int airplaneSpeed()- This method returns the airplane speed
     - int airAltitude()- this method returns the altitude that the airplane is in
@@ -234,6 +212,33 @@ will likely refine your design to make your implementation easier to use.
       Answer, explain, and give at least one example:
       - I don't know yet
 
+- Component Design #2: Cybersecurity
+  - **Description**:
+    - This is a method that shows the list of career paths in cybersecurity and allows the user to add career paths from the
+    main Standard method
+  - **Kernel Methods**:
+    - void displayCareerPath()- This help shows the potential career paths in a branch of cybersecurity
+    - boolean isEmpty()- Method to ensure that a potential method is implementing a zero method
+    - void addCareerPath(String career)- This method ensures that you can add a certain career path in cybersecutrity
+    - void removeCareerPath(String career)- This method ensures that you can remove a certain career path in cybersecurity
+  - **Secondary Methods**:
+    - void riskAssesment()- Implements the cybersecurity method and gives possible riskassements methods
+    - void securityOperation()- Implements and gives the methods in security operation
+    - void displayResources()- Displays the educational resources for a given career path
+
+  - **Additional Considerations** (*note*: "I don't know" is an acceptable
+    answer for each of the following questions):
+    - Would this component be mutable? Answer and explain:
+      -No, because this is just storing the potential paths present in a domain
+    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
+      Answer and explain:
+      - yes, this would rely on the cybersec class
+    - Would this component need any enums or constants (e.g.,
+      `Program.Instruction`)? Answer and explain:
+      - Not yet sure
+    - Can you implement your secondary methods using your kernel methods?
+      Answer, explain, and give at least one example:
+      - yes, all the secondary methods can be implemented using the kernel methods
 
 - Component Design #3: Stock Tracker
   - **Description**:
