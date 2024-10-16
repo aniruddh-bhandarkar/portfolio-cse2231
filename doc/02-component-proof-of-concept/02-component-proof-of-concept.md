@@ -101,7 +101,8 @@ do good work.
 > disclose that here as well.
 
 I have chosen a Command Line Interface Design with 4-5 options for the user to
-pick up from. I plan on
+pick up from. These are the different I plan on creating an enum  for these options which is similar to the days of the week.
+That enum will be called on and the user can select the corresponding command for it.
 
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
@@ -112,7 +113,7 @@ pick up from. I plan on
 > we'll want a branch that you can later make a pull request from with all
 > your changes.
 
-<!-- TODO: make a new branch from main then delete this comment -->
+
 
 ## Assignment Tasks
 
@@ -173,8 +174,6 @@ like to accomplish that, you will need to make GitHub releases after each pull
 request merge (or at least tag your commits). This is not required.
 
 ### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
