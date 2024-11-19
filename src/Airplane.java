@@ -1,7 +1,7 @@
 /**
  * Airplane.
  */
-public interface Airplane {
+public interface Airplane extends AirplaneKernel {
 
     /**
      * Sets the altitude of the airplane.
