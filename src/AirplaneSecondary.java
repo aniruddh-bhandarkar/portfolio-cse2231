@@ -1,37 +1,18 @@
 /**
- * The secondary methods for AirplaneKernel.
+ * The secondary methods for AirplaneKernel, add the method bodies to finish the
+ * abstract class assignment.
  */
-public interface AirplaneSecondary {
+public abstract class AirplaneSecondary implements Airplane {
 
-    /**
-     * Adjusts the airplane's altitude incrementally.
-     *
-     * @param increment
-     *            The altitude increment value (can be positive or negative).
-     */
-    void adjustAltitude(double increment);
+    @Override
+    public final String displayDefinedMetrics() {
+        String output = "";
+        for (Mode mode : Mode.values()) {
+            if (this.isDefined(mode)) {
+                output += this.getMetric(mode);
+            }
+        }
+        return output;
+    }
 
-    /**
-     * Adjusts the airplane's speed incrementally.
-     *
-     * @param increment
-     *            The speed increment value (can be positive or negative).
-     */
-    void adjustSpeed(double increment);
-
-    /**
-     * Adjusts the airplane's direction incrementally.
-     *
-     * @param increment
-     *            The direction increment value (in degrees, can be positive or
-     *            negative).
-     */
-    void adjustDirection(int increment);
-
-    /**
-     * Calculates the remaining flight time based on current speed and fuel.
-     *
-     * @return Estimated flight time in hours.
-     */
-    double calculateRemainingFlightTime();
 }

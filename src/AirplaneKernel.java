@@ -80,4 +80,28 @@ public interface AirplaneKernel extends Standard<Airplane> {
             scanner.close();
         }
     }
+
+    /**
+     * Brah.
+     *
+     * @param mode
+     * @return Metric
+     */
+    double getMetric(Mode mode);
+
+    /**
+     * Bruh.
+     *
+     * @param mode
+     * @param value
+     */
+    void setMetric(Mode mode, double value);
+
+    /**
+     * Brooo.
+     *
+     * @param mode
+     * @return defined
+     */
+    boolean isDefined(Mode mode);
 }
