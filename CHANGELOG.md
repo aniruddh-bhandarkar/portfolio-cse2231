@@ -7,6 +7,20 @@ and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
 ## [Unreleased]
+## [2024.11.20]
+
+### Added
+
+- Airplane Abstract Class
+- Revisions to the interface
+
+## [2024.10.17]
+
+### Added
+
+- Implemented the three methods for Airplane
+- Created the necessary strucutre for the interfaces
+
 
 ## [2024.09.11]
 
