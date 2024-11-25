@@ -7,6 +7,12 @@ and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
 ## [Unreleased]
+## [2024.11.25]
+
+### Added
+
+- Changed the abstract class
+- Added new files and method implementing Airplane.Java in AirplaneSecondary.java
 
 ## [2024.09.11]
 
