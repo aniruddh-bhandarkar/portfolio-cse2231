@@ -1,3 +1,6 @@
+/**
+ * Airplane Used for standard.
+ */
 public interface Airplane extends AirplaneKernel {
     /**
      * @return String
