@@ -7,6 +7,15 @@ and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
 ## [Unreleased]
+## [2024.12.03]
+
+### Added
+
+- Added test cases to the kernel and secondary files
+- Added use cases
+
+### Revised
+- Kernel and Secondary methods
 
 ## [2024.09.11]
 

@@ -50,8 +50,6 @@ course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
-
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
 opening the TODOs window from the sidebar. The icon looks like a tree and will
@@ -132,7 +130,6 @@ to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -298,18 +295,19 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I would say that the understanding of software development has been a mixed bag. On the one hand, I have been able to take the core principles of software development and use it in an application that I found interesting ( Airplanes). The core principles are making a design, iteration, collaboration, testing, and finally refining. I have learnt those well but at the same time I have not been able to deploy a program that other users would use and thus this remains a point that I have.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+The portfolio project did surface some gaps during the development of the various kernels. The gaps included knowledge in abstract classes, implementation of the kernel, standard methods separate from the contracts and the process of separating the various parts of my work to re-integrate them. I addressed them by using online tools, and contacting the professor as and when I saw was necessary.
+
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+I feel that software development can be likened to the creation of art. I don’t believe that the development of software is like art, but that there are many unknowns which can only be completed by experimentation. There can be principles to software development but the feeling of completing this project gives me a similar feeling to that of completing an art piece that can be further refined in the future. I am excited to see the future of software development.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -317,29 +315,31 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+Some of the skills that I picked up were that of flexibility in implementation of ideas, the continuous reiteration of a model and the importance of guidance. I had times during the course of the kernel implementation, abstract class code where I had to redraw the interfaces from what the initial idea was. I had to also seek help to improve and add ideas to create the code.
+
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+*Designed interfaces and contract based on Object Oriented Principles
+*Refined the interfaces of the Airplane Code
+*Collaborated with other students and the instructor to add code to the project
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+I have become more interested in some aspects of the code, and am not as interested in the topics that I have chosen. I would like to know how to integrate the code for different object oriented language concepts like encapsulation, inheritance, and the practical aspects regarding the same.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+The  things I would continue on the career path would be trying to search for real-life experiences where I can test code. This would ideally be with a company (aka an internship) where I would work with other people in a team and understand different aspects of software design as a whole. The mentors I would likely contact are my former colleagues at an internship company, a recruiter who can give me feedback on where to improve on my resume/ software skills and other knowledgeable people in my field of study.
+
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
