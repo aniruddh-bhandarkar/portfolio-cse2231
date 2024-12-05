@@ -7,7 +7,7 @@ and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
 ## [Unreleased]
-## [2024.12.03]
+## [2024.12.04]
 
 ### Added
 

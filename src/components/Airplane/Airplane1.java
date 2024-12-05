@@ -15,7 +15,7 @@ import java.util.Map;
  *                  map. Mode.SPEED corresponds to the key Mode.SPEED, and so
  *                  on.
  */
-public class Airplane1 implements AirplaneKernel {
+public class Airplane1 extends AirplaneSecondary {
 
     /**
      * Metrics map.
@@ -36,22 +36,20 @@ public class Airplane1 implements AirplaneKernel {
      *            The mode to set.
      * @param value
      *            The value to set.
-     * @ensures if (value < 0 || value >= 360) { throw new
-     *          IllegalArgumentException( "Direction must be between 0 and
-     *          359."); }
-     * @ensures if (value < 0) { throw new IllegalArgumentException( mode.name()
-     *          + " must be non-negative."); }
      */
     @Override
     public void setMetric(Mode mode, double value) {
-        switch (mode) {
-            case ALTITUDE:
-            case SPEED:
-            case FUEL_QUANTITY:
-            case DIRECTION:
-            default:
-                // No additional constraints for other modes
+        // Direction-specific validation
+        if (mode == Mode.DIRECTION && (value < 0 || value >= 360)) {
+            throw new IllegalArgumentException(
+                    "Direction must be between 0 and 359.");
         }
+        // Other validations
+        if (value < 0) {
+            throw new IllegalArgumentException(
+                    mode.name() + " must be non-negative.");
+        }
+
         this.metrics.put(mode, value);
     }
 
@@ -85,7 +83,7 @@ public class Airplane1 implements AirplaneKernel {
     /**
      * Creates a new representation for kernel purity compliance.
      *
-     * @return A fresh instance of AirplaneKernelImpl.
+     * @return A fresh instance of Airplane1.
      */
     public Airplane1 createNewRep() {
         return new Airplane1();
@@ -104,10 +102,8 @@ public class Airplane1 implements AirplaneKernel {
      *
      * @param source
      *            The source airplane to transfer state from.
-     *
      * @throws IllegalArgumentException
-     *             if the source is null or not an instance of
-     *             AirplaneKernelImpl.
+     *             if the source is null or not an instance of Airplane1.
      */
     @Override
     public void transferFrom(Airplane source) {
@@ -126,8 +122,42 @@ public class Airplane1 implements AirplaneKernel {
     }
 
     @Override
-    public final Airplane newInstance() {
-        this.createNewRep();
-        return null;
+    public Airplane newInstance() {
+        return this.createNewRep();
+    }
+
+    @Override
+    public void setAltitude(double altitude) {
+        this.setMetric(Mode.ALTITUDE, altitude);
+    }
+
+    @Override
+    public double getAltitude() {
+        return this.getMetric(Mode.ALTITUDE);
+    }
+
+    @Override
+    public void setSpeed(double speed) {
+        this.setMetric(Mode.SPEED, speed);
+    }
+
+    @Override
+    public double getSpeed() {
+        return this.getMetric(Mode.SPEED);
+    }
+
+    @Override
+    public void setDirection(int direction) {
+        this.setMetric(Mode.DIRECTION, direction);
+    }
+
+    @Override
+    public int getDirection() {
+        return (int) this.getMetric(Mode.DIRECTION);
+    }
+
+    @Override
+    public double getFuelQuantity() {
+        return this.getMetric(Mode.FUEL_QUANTITY);
     }
 }

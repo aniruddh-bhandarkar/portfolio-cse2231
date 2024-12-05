@@ -4,8 +4,7 @@ import components.Airplane.AirplaneKernel.Mode;
 /**
  * This utility class simulates an airplane's flight phase by updating and
  * displaying the airplane's metrics such as altitude, speed, and fuel quantity
- * over a specified duration. It is designed as a utility class and should not
- * be instantiated.
+ * over a specified duration.
  */
 public final class ResetAirplane {
 
